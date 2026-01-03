@@ -1,10 +1,70 @@
 body {
-  font-family: Arial;
-  background: #0f172a;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #0b1020;
   color: #e5e7eb;
-  padding: 40px;
+  line-height: 1.7;
 }
 
-header {
-  margin-bottom: 40px;
+.hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #64748b;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.project-list li {
+  margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+  font-size: 0.9rem;
 }

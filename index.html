@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Avdhoot Golekar</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
+  <header class="hero">
+    <img src="assets/photo.jpg" alt="Avdhoot Golekar" class="profile-pic">
     <h1>Avdhoot Golekar</h1>
-    <p>Aerospace | Robotics | ML</p>
+    <p class="subtitle">
+      Aerospace Engineering · ML · Control · Vision
+    </p>
+    <div class="links">
+      <a href="assets/resume.pdf" target="_blank">Resume</a>
+      <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+      <a href="mailto:your_email@iitb.ac.in">Email</a>
+    </div>
   </header>
 
   <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>Autonomous Cars</li>
-      <li>Battery SoH Estimation</li>
-      <li>RGB–Thermal Fusion</li>
+    <h2>About</h2>
+    <p>
+      I am an Aerospace Engineering undergraduate at IIT Bombay with a dual minor
+      in Computer Science and Machine Intelligence & Data Science. My interests lie
+      at the intersection of machine learning, control theory, and applied mathematics.
+    </p>
+  </section>
+
+  <section>
+    <h2>Research & Internships</h2>
+
+    <div class="card">
+      <h3>IIT Hyderabad — Summer Research Intern</h3>
+      <p>
+        Transformer-based RGB-Thermal fusion for semantic segmentation.
+        Achieved <strong>+6.3% mIoU</strong> on MFNet. Explored Mamba and VAEs
+        for compact shared embeddings.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>IgrenEnergi (California) — ML Intern</h3>
+      <p>
+        Battery State-of-Health prediction using LSTMs and differential evolution.
+        Achieved <strong>1.2% RMSE</strong> and improved noisy curve fitting by 7%.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+
+    <ul class="project-list">
+      <li>
+        <strong>Autonomous Driving (UMIC, IITB)</strong> —
+        Vision Transformers, U-Net3+, MPC, vehicle dynamics.
+      </li>
+      <li>
+        <strong>MDPs & RL</strong> —
+        Custom grid-world, Value Iteration, SARSA, Q-Learning.
+      </li>
+      <li>
+        <strong>Financial Mathematics</strong> —
+        Black-Scholes, Binomial models, Efficient Frontier simulation.
+      </li>
+      <li>
+        <strong>Thin Airfoil Theory</strong> —
+        Python implementation with <6% ANSYS error.
+      </li>
     </ul>
   </section>
 
+  <section>
+    <h2>Technical Skills</h2>
+    <p>
+      <strong>Languages:</strong> C, C++, Python, HTML, CSS<br>
+      <strong>ML:</strong> PyTorch, TensorFlow, scikit-learn<br>
+      <strong>Tools:</strong> ROS, Docker, CasADi, ACADOS, OpenCV, MATLAB
+    </p>
+  </section>
+
   <footer>
-    <a href="https://github.com/avdhoot001">GitHub</a>
+    © 2026 · Built from scratch · No templates
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
